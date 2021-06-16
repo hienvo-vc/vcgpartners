@@ -1,2 +1,2 @@
 # vcgpartners
-Repository for VCGPartners
+Website draft-2-day
