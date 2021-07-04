@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="./style.css" />
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">		<link rel="stylesheet" href="./style.css" />
 		<title>VCG Partners</title>
 	</head>
-
 	<body>
 		<nav class="navbar navbar-expand-lg sticky-top navbar-custom">
 			<a href="#" class="navbar-brand" style="padding-left: 10px"
@@ -54,24 +46,80 @@
 				</ul>
 			</div>
 		</nav>
-
-		<div class="background">
-			<div class="container-fluid">
-				<h1
-					style="
-						padding-left: 40px;
-						color: whitesmoke;
-						font-weight: bold;
-						width: 100%;
-					"
-				>
-					Opportunities don't happen.
-					<br />
-					You create them.
-				</h1>
+		<!-- <div class="container-fluid" style="padding: 0;">
+			<div class="background">
+				<div class="container-fluid">
+					<h1
+						style="
+							padding-left: 40px;
+							color: whitesmoke;
+							font-weight: bold;
+							width: 100%;
+						"
+					>
+						Opportunities don't happen.
+						<br />
+						You create them.
+					</h1>
+				</div>
+			</div>
+		</div> -->
+		
+		<!-- <div class="container-fluid" style="padding: 0">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./images/danny-de-groot-kUsaVA68ZbU-unsplash.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="./images/guo-xin-goh--8juRlGCr5c-unsplash.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div id="dayandnight" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="8000">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="day">
+						<div class="container-fluid">
+							<h1
+								style="
+									padding-left: 40px;
+									color: whitesmoke;
+									font-weight: bold;
+									width: 100%;
+								"
+							>
+								Opportunities don't happen.
+								<br />
+								You create them.
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="night">
+						<div class="container-fluid">
+							<h1
+								style="
+									padding-left: 40px;
+									color: whitesmoke;
+									font-weight: bold;
+									width: 100%;
+								"
+							>
+								Opportunities don't happen.
+								<br />
+								You create them.
+							</h1>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
+		<div style="width:1px; height:1px; visibility:hidden; overflow:hidden; z-index: -1;">
+			<img src="./images/guo-xin-goh--8juRlGCr5c-unsplash.jpg" />
+		</div>
 		<div class="container-fluid text-center" style="margin-bottom: 30px">
 			<div class="row">
 				<div class="col-2"></div>
@@ -84,7 +132,7 @@
 						Services License for Fund Management issued by the Monetary
 						Authority of Singapore. VCG Partners (VCGP) is a wholly-owned
 						subsidiary of
-						<a href="https://vinacapital.com">VinaCapital</a>, 
+						<a href="https://vinacapital.com" target="_blank" rel="noopener noreferrer">VinaCapital</a>, 
 						one of Vietnam’s leading investment management firms, with a
 						diversified portfolio of USD3.3 billion in AUM. We offer services
 						such as Separately Managed Accounts and Capital Markets &
@@ -177,7 +225,7 @@
 				<!-- <div class="col-2"></div> -->
 			</div>
 		</div>
-		<div class="container-fluid text-center" style="margin-bottom: 30px">
+		<!-- <div class="container-fluid text-center" style="margin-bottom: 30px">
 			<h2 id="products">OUR PRODUCTS</h2>
 			<div class="row">
 				<div class="col-2"></div>
@@ -207,7 +255,7 @@
 								>
 									<div class="card-body">
 										<p>
-											Our <a href="https://vinacapital.com/">Head Office</a> manages various Vietnam-focused products across different asset classes:
+											Our <a href="https://vinacapital.com/" target="_blank" rel="noopener noreferrer">Head Office</a> manages various Vietnam-focused products across different asset classes:
 										</p>
 										<ul class="list-group list-group-mine list-group-flush">
 											<li class="list-group-item">
@@ -217,53 +265,47 @@
 													<ul style="text-align: left;">
 														<li>
 															<p>
-																UCITS compliant Fund: <a href="https://wm.vinacapital.com/en/vcg-partners-vietnam-fund-vvf">Forum One - VCG Partners Vietnam Fund (VVF)</a>
+																UCITS compliant Fund: <a href="https://wm.vinacapital.com/en/vcg-partners-vietnam-fund-vvf" target="_blank" rel="noopener noreferrer">Forum One - VCG Partners Vietnam Fund (VVF)</a>
 															</p>
 														</li>
 														<li>
 															<p>
-																Medium term (1-3 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vinawealth-equity-opportunity-fund-veof">VinaWealth Equity Opportunity Fund (VEOF)</a>
+																Medium term (1-3 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vinawealth-equity-opportunity-fund-veof" target="_blank" rel="noopener noreferrer">VinaWealth Equity Opportunity Fund (VEOF)</a>
 															</p>
 														</li>
 														<li>
 															<p>
-																Medium to long term (2-5 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vietnam-equity-special-access-fund-vesaf-2-2">Vietnam Equity Special Access Fund (VESAF)</a>
+																Medium to long term (2-5 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vietnam-equity-special-access-fund-vesaf-2-2" target="_blank" rel="noopener noreferrer">Vietnam Equity Special Access Fund (VESAF)</a>
 															</p>
 														</li>
 													</ul>
-													<!-- UCITS compliant Fund: <a href="https://wm.vinacapital.com/en/vcg-partners-vietnam-fund-vvf">Forum One - VCG Partners Vietnam Fund (VVF)</a>
-													<br>
-													Medium term (1-3 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vinawealth-equity-opportunity-fund-veof">VinaWealth Equity Opportunity Fund (VEOF)</a>
-													<br>
-													Medium to long term (2-5 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vietnam-equity-special-access-fund-vesaf-2-2">Vietnam Equity Special Access Fund (VESAF)</a> -->
-												</p>
 											</li>
 											<li class="list-group-item">
 												<p style="text-align: left;">
 													<span style="font-weight: bold;">Fixed Income</span>
 													<br>
-														Low risk Fund with stable return: <a href="https://wm.vinacapital.com/en/vinawealth-enhanced-fixed-income-fund-vff">VinaWealth Enhanced Fixed Income Fund (VFF)</a>
+														Low risk Fund with stable return: <a href="https://wm.vinacapital.com/en/vinawealth-enhanced-fixed-income-fund-vff" target="_blank" rel="noopener noreferrer">VinaWealth Enhanced Fixed Income Fund (VFF)</a>
 												</p>
 											</li>
 											<li class="list-group-item">
 												<p style="text-align: left;">
 													<span style="font-weight: bold;">Balanced</span>
 												<br>
-													Balanced and diversified portfolio of fixed income and equity: <a href="https://wm.vinacapital.com/en/vinacaptial-insights-balanced-fund-vibf">VinaCapital Insights Balanced Fund (VIBF)</a>
+													Balanced and diversified portfolio of fixed income and equity: <a href="https://wm.vinacapital.com/en/vinacaptial-insights-balanced-fund-vibf" target="_blank" rel="noopener noreferrer">VinaCapital Insights Balanced Fund (VIBF)</a>
 												</p>
 											</li>
 											<li class="list-group-item">
 												<p style="text-align: left;">
 													<span style="font-weight: bold;">Exchanged Traded Fund (ETF)</span>
 													<br>
-														ETF that replicates the performance of VN100 Index ̶ top 100 largest and most liquid stocks listed on the Ho Chi Minh City Stock Exchange (HOSE): <a href="https://wm.vinacapital.com/en/fund-etf-vn100">VinaCapital VN100 ETF (FUEVN100)</a> 
+														ETF that replicates the performance of VN100 Index ̶ top 100 largest and most liquid stocks listed on the Ho Chi Minh City Stock Exchange (HOSE): <a href="https://wm.vinacapital.com/en/fund-etf-vn100" target="_blank" rel="noopener noreferrer">VinaCapital VN100 ETF (FUEVN100)</a> 
 												</p>
 											</li>
 											<li class="list-group-item">
 												<p style="text-align: left;">
 													<span style="font-weight: bold;">Multi Strategies</span>
 													<br>
-														Investment opportunities in private and public equities as well as other equity-related opportunities: <a href="https://vof.vinacapital.com/">VinaCapital Vietnam Opportunity Fund (VOF)</a>
+														Investment opportunities in private and public equities as well as other equity-related opportunities: <a href="https://vof.vinacapital.com/" target="_blank" rel="noopener noreferrer">VinaCapital Vietnam Opportunity Fund (VOF)</a>
 												</p>
 											</li>
 										</ul>
@@ -292,7 +334,7 @@
 								>
 									<div class="card-body">
 										<p>
-											We offer Asia Alternative products for investment in sectors such as Real Estate, Infrastructure, <a style="color: #db2d27;" href="https://ventures.vinacapital.com/">Venture Capital</a> and Renewable Energies. 
+											We offer Asia Alternative products for investment in sectors such as Real Estate, Infrastructure, <a style="color: #db2d27;" href="https://ventures.vinacapital.com/" target="_blank" rel="noopener noreferrer">Venture Capital</a> and Renewable Energies. 
 										</p>
 									</div>
 								</div>
@@ -331,6 +373,122 @@
 					</div>
 				</div>
 			</div>
+		</div> -->
+		<div class="container-fluid text-center" style="margin-bottom: 30px">
+			<h2 id="products">OUR PRODUCTS</h2>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<div class="row">
+						<div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="panelsStayOpen-headingOne">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse"
+										data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+										aria-controls="panelsStayOpen-collapseOne" style="font-size: 20px;">
+										Vietnam Listed Products
+									</button>
+								</h5>
+								<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+									aria-labelledby="panelsStayOpen-headingOne">
+									<div class="accordion-body">
+										<p>
+											Our <a href="https://vinacapital.com/" target="_blank" rel="noopener noreferrer">Head Office</a> manages various Vietnam-focused products across different asset classes:
+										</p>
+										<ul class="list-group  list-group-flush">
+											<li class="list-group-item">
+												<p style="text-align: left;">
+													<span style="font-weight: bold;">Equity</span>
+													<br>
+													<ul style="text-align: left;">
+														<li>
+															<p>
+																UCITS compliant Fund: <a href="https://wm.vinacapital.com/en/vcg-partners-vietnam-fund-vvf" target="_blank" rel="noopener noreferrer">Forum One - VCG Partners Vietnam Fund (VVF)</a>
+															</p>
+														</li>
+														<li>
+															<p>
+																Medium term (1-3 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vinawealth-equity-opportunity-fund-veof" target="_blank" rel="noopener noreferrer">VinaWealth Equity Opportunity Fund (VEOF)</a>
+															</p>
+														</li>
+														<li>
+															<p>
+																Medium to long term (2-5 years) wealth accumulation: <a href="https://wm.vinacapital.com/en/vietnam-equity-special-access-fund-vesaf-2-2" target="_blank" rel="noopener noreferrer">Vietnam Equity Special Access Fund (VESAF)</a>
+															</p>
+														</li>
+													</ul>
+											</li>
+											<li class="list-group-item">
+												<p style="text-align: left;">
+													<span style="font-weight: bold;">Fixed Income</span>
+													<br>
+														Low risk Fund with stable return: <a href="https://wm.vinacapital.com/en/vinawealth-enhanced-fixed-income-fund-vff" target="_blank" rel="noopener noreferrer">VinaWealth Enhanced Fixed Income Fund (VFF)</a>
+												</p>
+											</li>
+											<li class="list-group-item">
+												<p style="text-align: left;">
+													<span style="font-weight: bold;">Balanced</span>
+												<br>
+													Balanced and diversified portfolio of fixed income and equity: <a href="https://wm.vinacapital.com/en/vinacaptial-insights-balanced-fund-vibf" target="_blank" rel="noopener noreferrer">VinaCapital Insights Balanced Fund (VIBF)</a>
+												</p>
+											</li>
+											<li class="list-group-item">
+												<p style="text-align: left;">
+													<span style="font-weight: bold;">Exchanged Traded Fund (ETF)</span>
+													<br>
+														ETF that replicates the performance of VN100 Index ̶ top 100 largest and most liquid stocks listed on the Ho Chi Minh City Stock Exchange (HOSE): <a href="https://wm.vinacapital.com/en/fund-etf-vn100" target="_blank" rel="noopener noreferrer">VinaCapital VN100 ETF (FUEVN100)</a> 
+												</p>
+											</li>
+											<li class="list-group-item">
+												<p style="text-align: left;">
+													<span style="font-weight: bold;">Multi Strategies</span>
+													<br>
+														Investment opportunities in private and public equities as well as other equity-related opportunities: <a href="https://vof.vinacapital.com/" target="_blank" rel="noopener noreferrer">VinaCapital Vietnam Opportunity Fund (VOF)</a>
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="panelsStayOpen-headingTwo">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+										aria-controls="panelsStayOpen-collapseTwo" style="font-size: 20px;">
+										Alternative Investments
+									</button>
+								</h5>
+								<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+									aria-labelledby="panelsStayOpen-headingTwo">
+									<div class="accordion-body">
+										<p>
+											We offer Asia Alternative products for investment in sectors such as Real Estate, Infrastructure, <a style="color: #db2d27;" href="https://ventures.vinacapital.com/" target="_blank" rel="noopener noreferrer">Venture Capital</a> and Renewable Energies. 
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h5 class="accordion-header" id="panelsStayOpen-headingThree">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+										aria-controls="panelsStayOpen-collapseThree" style="font-size: 20px;">
+										Concentrated Global Equities
+									</button>
+								</h5>
+								<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+									aria-labelledby="panelsStayOpen-headingThree">
+									<div class="accordion-body">
+										<p>
+											The core investment objective to deliver unconstrained absolute return with concentrated long-term equities portfolio comprising of positions in superior businesses globally. 
+											Our strategy focuses on capturing highly idiosyncratic bottom-up fundamental returns in mispriced change, typically due to technology disruption, market misperception or corporate governance issues. 
+										</p>
+									</div>
+								</div>
+							</div>
+							</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="row container-fluid text-center">
 			<div class="col-2"></div>
@@ -359,7 +517,7 @@
 						<div class="row">
 							<h4 class="name">JASON NG - CEO and Executive Director</h4>
 							<div class="col-lg-4">
-								<img class="profile cropped" src="./images/jason.png" />
+								<img class="cropped" src="./images/jason.png"/>
 							</div>
 							<div class="col-lg-8">
 								<p>
@@ -388,7 +546,7 @@
 						<div class="row format">
 							<h4 class="name">HENDY LIM - Head of Operations</h4>
 							<div class="col-lg-4">
-								<img class="profile cropped" src="./images/hendy.png" />
+								<img class="cropped" src="./images/hendy.png" />
 							</div>
 							<div class="col-lg-8">
 								<p>
@@ -405,7 +563,7 @@
 						<div class="row format">
 							<h4 class="name">BROOK TAYLOR - Non-Executive Director</h4>
 							<div class="col-lg-4">
-								<img class="profile cropped" src="./images/Brook-Taylor-2019-a.jpg" />
+								<img class="cropped" src="./images/Brook-Taylor-2019-a.jpg" />
 							</div>
 							<div class="col-lg-8">
 								<p>
@@ -422,7 +580,7 @@
 						<div class="row format">
 							<h4 class="name">KHANH VU - Non-Executive Director</h4>
 							<div class="col-lg-4">
-								<img class="profile cropped" src="./images/khanhvu-600x350.jpg" />
+								<img class="cropped" src="./images/khanhvu-600x350.jpg" />
 							</div>
 							<div class="col-lg-8">
 								<p>
@@ -523,21 +681,7 @@
 			</div>
 		</footer>
 
-		<script
-			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-			crossorigin="anonymous"
-		></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<script src="./script.js"></script>
 	</body>
 </html>
