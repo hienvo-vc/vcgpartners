@@ -37,12 +37,12 @@
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-	color: #7a7a7a;
+	color: #fbfbfb;
 }
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-	color: #7a7a7a;
+	color: #fbfbfb;
 }
 
 /* change the color of active or hovered links */
@@ -52,8 +52,9 @@
 	color: #db2d27;
 }
 
-a, a:hover {
-	color:#db2d27;
+a,
+a:hover {
+	color: #db2d27;
 	text-decoration: none;
 }
 
@@ -80,16 +81,15 @@ h2 {
 }
 
 .cropped {
-    width: 160px; /* width of container */
-    height: 228px; /* height of container */
-    object-fit: cover;
+	width: 160px; /* width of container */
+	height: 228px; /* height of container */
+	object-fit: cover;
 }
 
 .format {
 	margin-top: 20px;
 }
 
-
 .accordion-button:not(.collapsed) {
-	color:#db2d27;
+	color: #db2d27;
 }
